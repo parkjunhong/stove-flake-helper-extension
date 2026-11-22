@@ -60,6 +60,7 @@ try {
     # 필수 파일만 복사
     Copy-Item (Join-Path $appDir "manifest.json") $stagedAppDir
     Copy-Item (Join-Path $appDir "content.js") $stagedAppDir
+    Copy-Item (Join-Path $appDir "background.js") $stagedAppDir
     Copy-Item (Join-Path $appDir "popup.html") $stagedAppDir
     Copy-Item (Join-Path $appDir "popup.js") $stagedAppDir
     Copy-Item (Join-Path $appDir "popup.css") $stagedAppDir

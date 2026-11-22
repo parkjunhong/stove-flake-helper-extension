@@ -8,7 +8,7 @@
 
 ### 1단계: 프로그램 다운로드
 1. 아래 링크를 클릭하여 최신 버전의 확장 프로그램 압축 파일을 다운로드합니다:
-   - <a href="https://github.com/parkjunhong/stove-flake-helper-extension/releases/latest/download/stove-flake-helper-extension-v1.0.0.zip"><b>📦 [원클릭 즉시 다운로드] stove-flake-helper-extension-v1.0.0.zip</b></a>
+   - <a href="https://github.com/parkjunhong/stove-flake-helper-extension/releases/latest/download/stove-flake-helper-extension-v1.1.0.zip"><b>📦 [원클릭 즉시 다운로드] stove-flake-helper-extension-v1.1.0.zip</b></a>
      > *클릭 시 현재 보고 있는 안내 문서 페이지를 벗어나지 않고 파일이 즉시 다운로드됩니다.*
    - *(이전 버전을 확인하시려면 <a href="https://github.com/parkjunhong/stove-flake-helper-extension/releases">전체 릴리스 목록 ↗</a>을 이용해 주세요. [새 창으로 열기: <b>Ctrl + Shift + 클릭</b>])*
 2. 다운로드한 `stove-flake-helper-extension-v{version}.zip` 파일의 압축을 원하는 폴더에 해제합니다.
@@ -92,6 +92,12 @@
 
 ---
 
-## 5. 라이선스
+## 5. 변경 이력 (History)
+
+버전별 세부 변경 사항은 [docs/history.md](docs/history.md)에서 확인하실 수 있습니다.
+
+---
+
+## 6. 라이선스
 
 이 프로젝트는 [Apache License 2.0](LICENSE) 라이선스를 따릅니다.
