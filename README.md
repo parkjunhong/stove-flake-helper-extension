@@ -60,6 +60,8 @@
    - 확장 프로그램 팝업의 **[중단 (Esc)]** 버튼 클릭
    - 위 3가지 중 어느 하나라도 수행하면 진행 중인 뽑기 루프 및 감시자가 즉시 안전하게 멈춥니다.
 
+[![스토브 럭키 캡슐 자동 뽑기 실제 사용 시연 영상](https://youtube.com)](https://youtu.be/1cRTG22f_7k)
+
 <p align="center">
   <a href="https://raw.githubusercontent.com/parkjunhong/stove-flake-helper-extension/refs/heads/main/docs/videos/how-to-use-stove-flake-helper-extension.mp4" title="새 창에서 영상 보기: Ctrl + Shift + 클릭">
     <img src="https://raw.githubusercontent.com/parkjunhong/stove-flake-helper-extension/refs/heads/main/docs/images/03_video_preview.png" alt="스토브 럭키 캡슐 자동 뽑기 실제 사용 시연 영상" width="850" style="max-width: 100%;">
