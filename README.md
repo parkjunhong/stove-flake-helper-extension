@@ -27,7 +27,7 @@
     <img src="https://raw.githubusercontent.com/parkjunhong/stove-flake-helper-extension/refs/heads/main/docs/images/01_install_extension.png" alt="크롬 확장 프로그램 설치 및 개발자 모드 로드 화면" width="850" style="max-width: 100%;">
   </a>
   <br>
-  <small>🔍 <i>새 창에서 원본 이미지를 크게 보려면 <b>Ctrl + Shift + 클릭</b> (또는 마우스 휠 클릭)하세요.</i></small>
+  <small>🔍 <i>새 창에서 원본 이미지를 크게 보려면 <b>Ctrl + Shift + 클릭</b>하세요.</i></small>
 </p>
 
 ---
@@ -49,7 +49,7 @@
     <img src="https://raw.githubusercontent.com/parkjunhong/stove-flake-helper-extension/refs/heads/main/docs/images/02_popup_settings.png" alt="확장 프로그램 팝업 UI 및 뽑기 설정 화면" width="850" style="max-width: 100%;">
   </a>
   <br>
-  <small>🔍 <i>새 창에서 원본 이미지를 크게 보려면 <b>Ctrl + Shift + 클릭</b> (또는 마우스 휠 클릭)하세요.</i></small>
+  <small>🔍 <i>새 창에서 원본 이미지를 크게 보려면 <b>Ctrl + Shift + 클릭</b>하세요.</i></small>
 </p>
 
 ### 3단계: 자동 진행 및 안전 중단
@@ -65,7 +65,7 @@
     <img src="https://raw.githubusercontent.com/parkjunhong/stove-flake-helper-extension/refs/heads/main/docs/images/03_running_badge.png" alt="스토브 리워드 실제 당첨 화면 및 이벤트 페이지 전체 캡처" width="850" style="max-width: 100%;">
   </a>
   <br>
-  <small>🔍 <i>새 창에서 원본 이미지를 크게 보려면 <b>Ctrl + Shift + 클릭</b> (또는 마우스 휠 클릭)하세요.</i></small>
+  <small>🔍 <i>새 창에서 원본 이미지를 크게 보려면 <b>Ctrl + Shift + 클릭</b>하세요.</i></small>
 </p>
 
 ---
