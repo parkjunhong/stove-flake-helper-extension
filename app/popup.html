@@ -1,0 +1,70 @@
+<!--
+  Copyright 2026 parkjunhong77@gmail.com
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>스토브 뽑기 자동화</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>스토브 럭키 캡슐 자동화</h1>
+      <span class="badge" id="dailyStatusBadge">확인 중...</span>
+    </header>
+
+    <div id="unsupportedView" class="notice hidden">
+      <p><strong>https://reward.onstove.com/ko/event</strong> 페이지에 로그인한 상태에서 실행해 주세요.</p>
+    </div>
+
+    <div id="mainView">
+      <div class="form-group">
+        <label class="label">뽑기 금액 선택</label>
+        <div class="radio-group">
+          <label class="radio-card">
+            <input type="radio" name="drawAmount" value="100" checked>
+            <span>100 플레이크</span>
+          </label>
+          <label class="radio-card">
+            <input type="radio" name="drawAmount" value="1000">
+            <span>1,000 플레이크</span>
+          </label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="label" for="retryCountInput">
+          '한번 더' 실행 횟수
+          <span class="hint" id="maxHint">(최대 29회)</span>
+        </label>
+        <input type="number" id="retryCountInput" min="0" max="29" value="29">
+      </div>
+
+      <div class="status-box" id="statusMessage">
+        대기 중입니다. 옵션을 확인 후 시작을 눌러주세요.
+      </div>
+
+      <div class="actions">
+        <button type="button" id="startBtn" class="btn btn-primary">자동 뽑기 시작</button>
+        <button type="button" id="stopBtn" class="btn btn-danger" disabled>중단</button>
+      </div>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
