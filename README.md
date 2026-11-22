@@ -61,11 +61,13 @@
    - 위 3가지 중 어느 하나라도 수행하면 진행 중인 뽑기 루프 및 감시자가 즉시 안전하게 멈춥니다.
 
 <p align="center">
-  <a href="https://raw.githubusercontent.com/parkjunhong/stove-flake-helper-extension/refs/heads/main/docs/images/03_running_badge.png" title="Ctrl + Shift + 클릭 시 새 창에서 원본 크게 보기">
-    <img src="https://raw.githubusercontent.com/parkjunhong/stove-flake-helper-extension/refs/heads/main/docs/images/03_running_badge.png" alt="스토브 리워드 실제 당첨 화면 및 이벤트 페이지 전체 캡처" width="850" style="max-width: 100%;">
+  <a href="https://raw.githubusercontent.com/parkjunhong/stove-flake-helper-extension/refs/heads/main/docs/videos/how-to-use-stove-flake-helper-extension.mp4" title="새 창에서 영상 보기: Ctrl + Shift + 클릭">
+    <img src="https://raw.githubusercontent.com/parkjunhong/stove-flake-helper-extension/refs/heads/main/docs/images/03_video_preview.png" alt="스토브 럭키 캡슐 자동 뽑기 실제 사용 시연 영상" width="850" style="max-width: 100%;">
   </a>
   <br>
-  <small>🔍 <i>새 창에서 원본 이미지를 크게 보려면 <b>Ctrl + Shift + 클릭</b>하세요.</i></small>
+  <small>🎬 <i>실제 사용 시연 영상 (20초) — 새 창에서 영상을 재생하려면 <b>Ctrl + Shift + 클릭</b>하세요.</i></small>
+  <br>
+  <small>▶ <a href="https://raw.githubusercontent.com/parkjunhong/stove-flake-helper-extension/refs/heads/main/docs/videos/how-to-use-stove-flake-helper-extension.mp4"><b>[동영상 직접 열기 (MP4)]</b></a> (새 창: <b>Ctrl + Shift + 클릭</b>)</small>
 </p>
 
 ---
