@@ -1,6 +1,6 @@
 ﻿<#
 .SYNOPSIS
-    Stove 럭키 캡슐 자동 뽑기 확장 프로그램 배포용 ZIP 빌드 스크립트
+    Stove 럭키 캡슐 '한번 더' 뽑기 도우미 확장 프로그램 배포용 ZIP 빌드 스크립트
 
 .DESCRIPTION
     app/manifest.json 의 버전을 자동으로 읽어와 dist/ 디렉터리에
@@ -33,7 +33,7 @@ if ([string]::IsNullOrWhiteSpace($version)) {
 }
 
 Write-Host "==================================================" -ForegroundColor Cyan
-Write-Host " Stove 럭키 캡슐 자동 뽑기 확장 프로그램 빌드" -ForegroundColor Cyan
+Write-Host " Stove 럭키 캡슐 '한번 더' 뽑기 도우미 확장 프로그램 빌드" -ForegroundColor Cyan
 Write-Host " 버전: v$version" -ForegroundColor Green
 Write-Host "==================================================" -ForegroundColor Cyan
 
