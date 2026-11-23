@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Stove 럭키 캡슐 자동 뽑기",
-  "version": "1.1.0",
-  "description": "스토브 리워드(reward.onstove.com) 럭키 캡슐 뽑기를 이벤트 기반으로 자동 실행하는 확장 프로그램입니다.",
+  "name": "Stove 럭키 캡슐 '한번 더' 뽑기 도우미",
+  "version": "1.2.0",
+  "description": "스토브 리워드(reward.onstove.com) 럭키 캡슐 '한번 더' 뽑기를 이벤트 기반으로 안전하게 도와주는 크롬 확장 프로그램입니다.",
   "permissions": [
     "activeTab",
     "tabs"
@@ -20,7 +20,7 @@
   },
   "action": {
     "default_popup": "popup.html",
-    "default_title": "Stove 럭키 캡슐 자동 뽑기 (비활성화 - 대상 페이지 아님)",
+    "default_title": "Stove 럭키 캡슐 '한번 더' 뽑기 도우미 (비활성화 - 대상 페이지 아님)",
     "default_icon": {
       "16": "icons/icon16_disabled.png",
       "48": "icons/icon48_disabled.png",

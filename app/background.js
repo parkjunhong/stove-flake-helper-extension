@@ -60,7 +60,7 @@ const updateActionState = (tabId, url) => {
     });
     chrome.action.setTitle({
       tabId,
-      title: 'Stove 럭키 캡슐 자동 뽑기 (활성화)'
+      title: "Stove 럭키 캡슐 '한번 더' 뽑기 도우미 (활성화)"
     });
   } else {
     chrome.action.disable(tabId);
@@ -70,7 +70,7 @@ const updateActionState = (tabId, url) => {
     });
     chrome.action.setTitle({
       tabId,
-      title: 'Stove 럭키 캡슐 자동 뽑기 (비활성화 - 대상 페이지 아님)'
+      title: "Stove 럭키 캡슐 '한번 더' 뽑기 도우미 (비활성화 - 대상 페이지 아님)"
     });
   }
 };

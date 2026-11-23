@@ -52,7 +52,7 @@ const setStatusMessage = (text, color = '#3b82f6') => {
 /**
  * 실행 상태에 따라 시작/중단 버튼의 활성화 여부를 전환합니다.
  *
- * @param {boolean} isRunning - 현재 자동 뽑기 실행 중 여부
+ * @param {boolean} isRunning - 현재 '한번 더' 뽑기 실행 중 여부
  * @returns {void}
  */
 const toggleButtons = (isRunning) => {
@@ -124,7 +124,7 @@ const syncPopupWithPageStatus = (status) => {
     const stopBtn = document.getElementById('stopBtn');
     if (stopBtn) stopBtn.disabled = true;
   } else if (status.isRunning) {
-    setStatusMessage('자동 뽑기가 진행 중입니다...', '#10b981');
+    setStatusMessage("'한번 더' 뽑기가 진행 중입니다...", '#10b981');
   }
 };
 
@@ -225,7 +225,7 @@ const initPopup = async () => {
       }
 
       toggleButtons(true);
-      setStatusMessage('자동 뽑기 명령을 전송했습니다...', '#10b981');
+      setStatusMessage("'한번 더' 뽑기 명령을 전송했습니다...", '#10b981');
 
       try {
         await chrome.tabs.sendMessage(tab.id, {
