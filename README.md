@@ -60,9 +60,9 @@
    - 확장 프로그램 팝업의 **[중단 (Esc)]** 버튼 클릭
    - 위 3가지 중 어느 하나라도 수행하면 진행 중인 뽑기 루프 및 감시자가 즉시 안전하게 멈춥니다.
 
-<p align="center">  
+<p align="center">     
    
-   https://github.com/user-attachments/assets/6b42c6b6-f956-4451-8623-a0402661db01
+   https://github.com/user-attachments/assets/be81e65a-3f07-4ec7-a360-8b20d7a95bff
    
   <small>🎬 <i>실제 사용 시연 영상 (20초)</i></small>
 </p>
