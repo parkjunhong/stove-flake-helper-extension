@@ -16,7 +16,7 @@
 
 (() => {
   /**
-   * 현재 자동 뽑기 루프가 실행 중인지 나타내는 상태 플래그입니다.
+   * 현재 '한번 더' 뽑기 루프가 실행 중인지 나타내는 상태 플래그입니다.
    * @type {boolean}
    */
   let isRunning = false;
@@ -530,7 +530,7 @@
   document.addEventListener('keydown', onKeyDown, true);
 
   /**
-   * 전달받은 옵션(금액, 반복 횟수)에 따라 스토브 뽑기 자동화 시퀀스를 실행합니다.
+   * 전달받은 옵션(금액, 반복 횟수)에 따라 Stove '한번 더' 뽑기 시퀀스를 실행합니다.
    *
    * @param {string} drawAmount - 뽑기 금액('100' 또는 '1000')
    * @param {number} totalClicks - '한번 더' 반복 실행 횟수

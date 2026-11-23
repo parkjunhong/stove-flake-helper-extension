@@ -1,6 +1,6 @@
-# Stove 럭키 캡슐 자동 뽑기 (Chrome Extension)
+# Stove 럭키 캡슐 '한번 더' 뽑기 도우미 (Chrome Extension)
 
-스토브 리워드 이벤트 페이지([https://reward.onstove.com/ko/event](https://reward.onstove.com/ko/event))에서 100 또는 1,000 플레이크 뽑기 및 결과 대화창의 **'한번 더'** 클릭을 이벤트 기반으로 안전하게 자동화하는 크롬 확장 프로그램입니다.
+스토브 리워드 이벤트 페이지([https://reward.onstove.com/ko/event](https://reward.onstove.com/ko/event))에서 100 또는 1,000 플레이크 뽑기 및 결과 대화창의 **'한번 더'** 클릭을 이벤트 기반으로 안전하게 도와주는 크롬 확장 프로그램입니다.
 
 ---
 
@@ -8,7 +8,7 @@
 
 ### 1단계: 프로그램 다운로드
 1. 아래 링크를 클릭하여 최신 버전의 확장 프로그램 압축 파일을 다운로드합니다:
-   - <a href="https://github.com/parkjunhong/stove-flake-helper-extension/releases/latest/download/stove-flake-helper-extension-v1.1.0.zip"><b>📦 [원클릭 즉시 다운로드] stove-flake-helper-extension-v1.1.0.zip</b></a>
+   - <a href="https://github.com/parkjunhong/stove-flake-helper-extension/releases/latest/download/stove-flake-helper-extension-v1.2.0.zip"><b>📦 [원클릭 즉시 다운로드] stove-flake-helper-extension-v1.2.0.zip</b></a>
      > *클릭 시 현재 보고 있는 안내 문서 페이지를 벗어나지 않고 파일이 즉시 다운로드됩니다.*
    - *(이전 버전을 확인하시려면 <a href="https://github.com/parkjunhong/stove-flake-helper-extension/releases">전체 릴리스 목록 ↗</a>을 이용해 주세요. [새 창으로 열기: <b>Ctrl + Shift + 클릭</b>])*
 2. 다운로드한 `stove-flake-helper-extension-v{version}.zip` 파일의 압축을 원하는 폴더에 해제합니다.
@@ -20,7 +20,7 @@
 2. 페이지 우측 상단의 **[개발자 모드]** 토글 스위치를 켭니다.
 3. 좌측 상단에 나타난 **[압축해제된 확장 프로그램을 로드합니다.]** 버튼을 클릭합니다.
 4. 압축을 해제한 경로 내의 **`app`** 폴더를 선택합니다.
-5. 브라우저 우측 상단 퍼즐 모양 아이콘(확장 프로그램)을 클릭한 후, **Stove 럭키 캡슐 자동 뽑기** 옆의 핀(고정) 아이콘을 눌러 툴바에 고정합니다.
+5. 브라우저 우측 상단 퍼즐 모양 아이콘(확장 프로그램)을 클릭한 후, **Stove 럭키 캡슐 '한번 더' 뽑기 도우미** 옆의 핀(고정) 아이콘을 눌러 툴바에 고정합니다.
 
 <p align="center">
   <a href="https://raw.githubusercontent.com/parkjunhong/stove-flake-helper-extension/refs/heads/main/docs/images/01_install_extension.png" title="Ctrl + Shift + 클릭 시 새 창에서 원본 크게 보기">
@@ -37,12 +37,12 @@
 ### 1단계: 이벤트 페이지 접속 및 팝업 열기
 1. 스토브 리워드 이벤트 페이지([https://reward.onstove.com/ko/event](https://reward.onstove.com/ko/event))에 접속하여 로그인합니다.
    - 확장 프로그램 설치 전부터 페이지가 열려 있었다면 `F5` 키를 눌러 새로고침합니다.
-2. 브라우저 우측 상단 툴바에 고정된 **Stove 럭키 캡슐 자동 뽑기** 아이콘을 클릭합니다.
+2. 브라우저 우측 상단 툴바에 고정된 **Stove 럭키 캡슐 '한번 더' 뽑기 도우미** 아이콘을 클릭합니다.
 
 ### 2단계: 금액 및 실행 횟수 설정
-1. 팝업 창 상단의 **[오늘 뽑기 | X / 30회]** 뱃지를 통해 현재 진행 현황과 자동으로 계산된 **최대 가능 횟수**를 확인합니다.
+1. 팝업 창 상단의 **[오늘 뽑기 | X / 30회]** 뱃지를 통해 현재 진행 현황과 계산된 **최대 가능 횟수**를 확인합니다.
 2. 소모할 뽑기 금액(`100 플레이크` 또는 `1,000 플레이크`)을 선택합니다.
-3. `'한번 더'` 자동 실행 횟수를 입력하거나 확인한 후 **[자동 뽑기 시작 (Enter)]** 버튼을 클릭합니다.
+3. `'한번 더'` 뽑기 실행 횟수를 입력하거나 확인한 후 **[캡슐 뽑기 시작 (Enter)]** 버튼을 클릭합니다.
 
 <p align="center">
   <a href="https://raw.githubusercontent.com/parkjunhong/stove-flake-helper-extension/refs/heads/main/docs/images/02_popup_settings.png" title="Ctrl + Shift + 클릭 시 새 창에서 원본 크게 보기">
@@ -52,8 +52,8 @@
   <small>🔍 <i>새 창에서 원본 이미지를 크게 보려면 <b>Ctrl + Shift + 클릭</b>하세요.</i></small>
 </p>
 
-### 3단계: 자동 진행 및 안전 중단
-1. 자동 뽑기가 시작되면 웹페이지 우측 상단에 실시간 진행 뱃지(`[진행 중] 100 플레이크 뽑기 (N / M회)...`)가 표시되며, 실제 결과 모달 대화창이 뜰 때마다 **`[100 뽑기 한번 더! 👆]`** (또는 `1,000 뽑기 한번 더!`) 버튼을 이벤트 기반으로 안전하게 자동 클릭합니다.
+### 3단계: 뽑기 진행 및 안전 중단
+1. 캡슐 뽑기가 시작되면 웹페이지 우측 상단에 실시간 진행 뱃지(`[진행 중] 100 플레이크 뽑기 (N / M회)...`)가 표시되며, 실제 결과 모달 대화창이 뜰 때마다 **`[100 뽑기 한번 더! 👆]`** (또는 `1,000 뽑기 한번 더!`) 버튼을 이벤트 기반으로 안전하게 클릭합니다.
 2. **진행 중 즉시 중단 방법**:
    - 웹페이지 당첨 대화창 하단의 **[닫기]** 버튼 클릭
    - 키보드의 **`Esc`** 키 입력
@@ -69,9 +69,9 @@
 
 ---
 
-## 3. 자동 종료 조건
+## 3. '한번 더' 뽑기 종료 조건
 
-다음과 같은 상황에서는 확장 프로그램이 안전하게 자동 종료됩니다:
+다음과 같은 상황에서는 확장 프로그램이 안전하게 종료됩니다:
 
 - 당일 최대 한도(30회)에 도달하여 `오늘 30회 뽑기 완료!` 창이 나타난 경우
 - 보유 플레이크가 소진되어 `보유한 플레이크가 부족합니다` 창이 나타난 경우
